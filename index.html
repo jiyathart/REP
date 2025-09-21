@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Jiyath R - AI Expert & Web Developer</title>
+    <meta name="description" content="Mohamed Jiyath R - AI Expert and Web Developer from Tamil Nadu, India. Specializing in Python programming, web development, and artificial intelligence applications.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="logo-animation">
+                <span class="logo-text">MJR</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">MJR</span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="typing-text" id="typingText"></span>
+                        <span class="cursor">|</span>
+                    </h1>
+                    <p class="hero-subtitle">AI Expert & Web Developer</p>
+                    <p class="hero-description">Transforming ideas into intelligent solutions through cutting-edge AI and web technologies</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn--primary hero-btn">View My Work</a>
+                        <a href="#contact" class="btn btn--outline hero-btn">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-placeholder">
+                            <span class="profile-initials">MJR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator" id="scrollIndicator">
+                <div class="scroll-arrow">
+                    <span>↓</span>
+                </div>
+                <span class="scroll-text">Scroll Down</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-info">
+                    <h3>Mohamed Jiyath R</h3>
+                    <p class="about-objective">Motivated and detail-oriented AI expert with hands-on experience in system analysis, data management, and web development. Skilled in Python programming, AI applications, and project coordination. Seeking to leverage my technical expertise in artificial intelligence and administrative skills in a dynamic organization.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Location:</span>
+                            <span>Tamil Nadu, India</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Education:</span>
+                            <span>B.Sc Computer Science (2022-2025)</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Languages:</span>
+                            <span>English, Tamil</span>
+                        </div>
+                    </div>
+                    <button class="btn btn--primary" id="downloadResume">Download Resume</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Technical Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="90">
+                            <div class="skill-info">
+                                <span class="skill-name">AI Expertise</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <div class="skill-info">
+                                <span class="skill-name">Python Programming</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="95">
+                            <div class="skill-info">
+                                <span class="skill-name">Data Entry & Documentation</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="80">
+                            <div class="skill-info">
+                                <span class="skill-name">System Administration</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="75">
+                            <div class="skill-info">
+                                <span class="skill-name">Web Development</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <div class="skill-info">
+                                <span class="skill-name">Database Management</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Soft Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="90">
+                            <div class="skill-info">
+                                <span class="skill-name">Project & Time Management</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <div class="skill-info">
+                                <span class="skill-name">Leadership & Team Supervision</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="88">
+                            <div class="skill-info">
+                                <span class="skill-name">Sales & Client Handling</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="92">
+                            <div class="skill-info">
+                                <span class="skill-name">Communication Skills</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="90">
+                            <div class="skill-info">
+                                <span class="skill-name">Adaptability</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2025 – Present</div>
+                        <h3>Manager & Senior Executive</h3>
+                        <h4>Haashiya Air Travels, Mimisal</h4>
+                        <p>Oversee daily office operations and ensure smooth workflow across departments. Maintain internal servers, troubleshoot technical issues, and ensure uninterrupted service. Manage travel bookings, customer service, and order processing efficiently.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024</div>
+                        <h3>Territory Sales Manager</h3>
+                        <h4>Vidcom Business Solution Pvt Ltd.</h4>
+                        <p>Managed regional sales operations, promoting business solutions and IT services. Built strong client relationships and exceeded monthly sales targets. Conducted product presentations and negotiated contracts with clients.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024 – 2025</div>
+                        <h3>Data Entry Specialist</h3>
+                        <h4>Haashiya CSC & Travels, Mimisal</h4>
+                        <p>Managed customer data and travel documentation with high accuracy. Performed system updates and database maintenance. Supported digital services and client interactions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2023 – 2024</div>
+                        <h3>Data Entry Operator</h3>
+                        <h4>Haashiya Common Service Center, Mimisal</h4>
+                        <p>Entered and verified customer and government-related records. Assisted with e-governance services and administrative tasks. Helped streamline data processing and file organization.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2015 – 2017</div>
+                        <h3>Office Administrator</h3>
+                        <h4>PSN Engineering College, Tirunelveli</h4>
+                        <p>Maintained academic records and handled student enrollment documentation. Coordinated with faculty for event organization and student services. Managed office correspondence and daily operations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>National Fisheries Digital Platform</h3>
+                        <p>Developed and implemented the system to generate fisher ID cards for individuals, improving accessibility and documentation for fishermen.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Database Management</span>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <p>A comprehensive digital solution for the National Fisheries department to streamline fisher identification and documentation processes.</p>
+                            <button class="btn btn--outline btn--sm">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Haashiya Air Travels Billing Website</h3>
+                        <p>Created an AI-powered billing system for Haashiya Air Travels, enhancing automation in payment processing and reducing human errors.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Web Development</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <p>An intelligent billing system that automates payment processing and reduces errors for the travel industry.</p>
+                            <button class="btn btn--outline btn--sm">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Haashiya Air Travels Website Analyzer</h3>
+                        <p>Developed a website analyzer tool for Haashiya Air Travels, streamlining website performance monitoring and optimizing user experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Analytics</span>
+                            <span class="tech-tag">Web Tools</span>
+                        </div>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <p>A comprehensive web analytics tool that monitors website performance and provides insights for optimization.</p>
+                            <button class="btn btn--outline btn--sm">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications" id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="cert-icon">🐍</div>
+                    <h3>Basic Python Programming</h3>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">📋</div>
+                    <h3>Project Management Fundamentals</h3>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">💼</div>
+                    <h3>MS Office Tools Proficiency</h3>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">🌐</div>
+                    <h3>HTML</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>1/405, Mimisal, Pudukkottai<br>Tamil Nadu, India – 614621</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 63848 67188</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>jiyathart@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <div>
+                            <h4>Website</h4>
+                            <p>www.jiyathart.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Mohamed Jiyath R. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:jiyathart@gmail.com" class="social-link" target="_blank">Email</a>
+                    <a href="https://www.jiyathart.com" class="social-link" target="_blank">Website</a>
+                    <a href="#" class="social-link" target="_blank">LinkedIn</a>
+                    <a href="#" class="social-link" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
